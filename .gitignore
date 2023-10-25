@@ -1,0 +1,20 @@
+# General
+data/
+logs/
+trained_models/
+wandb/
+results/sanity/
+results/analysis_res/
+*pyc
+.vscode
+.DS_Store
+core
+__pycache__
+
+# COGS baselines
+baseline_replication/COGS/logs/
+baseline_replication/COGS/preds/
+baseline_replication/COGS/processed_data/
+
+# TMCD baselines
+baseline_replication/TMCD/core
