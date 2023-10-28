@@ -102,7 +102,7 @@ Use `train_btg.sh` to train Neural-BTG.
 After the training of each model, the script should automatically output predictions to the folder `preds/`. 
 Use the functions in `utils/evaluate_utils.py` to evaluate each model.
 
-This script allows multiple variants of exact match accuracy, and has functions to evluate only on one model variant, evaluate on all random seeds, evalaute all datasets of a model, evaluate all model for a single dataset, and evaluate everything used in our work.
+This script allows multiple variants of exact match accuracy, and has functions to evluate only on one model variant, evaluate on all random seeds, evaluate all datasets of a model, evaluate all model for a single dataset, and evaluate everything used in our work.
 
 By default, calling `python utils/evalaute_utils.py` will evaluate all models on each dataset split, output the performance of each random seed into `results/exact_match.csv`, and output the average performance into `results/perf_table.csv`.
 
